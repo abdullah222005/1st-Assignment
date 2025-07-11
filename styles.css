@@ -86,8 +86,9 @@ img{
     font-size: 40px;
     font-weight: bold;
     font-family: "Raleway", sans-serif;
-    padding-top: 50px; 
+     padding-top: 70px; 
     color: #252432;
+    text-align: center;
 }
 .Productive-user-report{
     display: flex;
@@ -140,4 +141,30 @@ img{
 }
 .reviewer-info h4 {
     margin-bottom: -10px;
+    color: #757575;
+}
+.reviewer-info p{
+    color: #B7B7B7;
+}
+#ready-to-focus{
+    text-align: center;
+    margin-bottom: 80px;
+    background-color: #FFFFFF;
+    max-width: 1140px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+#ready-to-focus h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+}
+#ready-to-focus p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #909090;
+}
+.ready-to-focus-desc{
+    margin-bottom: 20px;
 }
