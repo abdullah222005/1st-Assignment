@@ -170,31 +170,75 @@ img{
 }
 
 #get-in-touch{
-    
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px auto;
+}
+#get-in-touch h1{
+    font-size: 97px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    max-width: 530px;
+}
+.form{
+    max-width: 500px;
+    width: 100%;
+}
+.form label{
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px;
 }
 
+.form input, textarea{
+    display: block;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 92%;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+.form-button{
+    margin-top: 20px;
+    width: 100%;
+}
 
 #bottom{
     text-align: center;
-    max-width: 530px;
     margin: auto;
+    background-color: #FFFFFF;
+    padding: 60px;
 }
 
 #bottom h1{
     font-family: "Inter", sans-serif;
     font-size: 100px;
-    font-weight: black;
+    font-weight: 800;
+    letter-spacing: 3px;
     font-style: normal;
     color: #4E47FF;
     margin-bottom: 20px; 
+    margin-top: 40px;
+    
 }
 #bottom p{
     color: #8987A1;
-    margin-bottom: 20px;
+    font-size: 20px;
 }
 .links{
     display: flex;
     justify-content: space-around;
+    max-width: 500px;
+    margin: 20px auto;
+    padding-left: 0px;
+    font-size: 18px;
 }
 .links li{
     list-style: none;
@@ -202,4 +246,8 @@ img{
 .links li a{
     text-decoration: none;
     color: #8987A1;
+    transition: 0.3s;
+}
+.links li a:hover{
+    color: #4E47FF;
 }
