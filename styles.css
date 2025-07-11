@@ -46,3 +46,25 @@
 .bottom-of-banner button{
     margin-bottom: 150px;
 }
+#action-bar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 80px auto;
+    align-items: center;
+}
+.action-desc{
+    max-width: 500px;
+}
+.action-desc h2{
+    font-size: 42px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+.action-desc p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+img{
+    border-radius: 50px;
+}
