@@ -168,3 +168,38 @@ img{
 .ready-to-focus-desc{
     margin-bottom: 20px;
 }
+
+#get-in-touch{
+    
+}
+
+
+#bottom{
+    text-align: center;
+    max-width: 530px;
+    margin: auto;
+}
+
+#bottom h1{
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    font-weight: black;
+    font-style: normal;
+    color: #4E47FF;
+    margin-bottom: 20px; 
+}
+#bottom p{
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    color: #8987A1;
+}
