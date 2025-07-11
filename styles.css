@@ -20,11 +20,11 @@ body{
   font-weight: 800;
   font-style: normal;
   color: #4E47FF;
+  cursor: default;
 }
 .primary-btn{
     color: #FFFFFF;
     background-color: #4E47FF;
-    /* max-height: 51px; */
     max-width: auto;
     padding: 12px 24px;
     border-radius: 5px;
@@ -86,9 +86,9 @@ img{
     font-size: 40px;
     font-weight: bold;
     font-family: "Raleway", sans-serif;
-     padding-top: 70px; 
+    padding-top: 70px;
     color: #252432;
-    text-align: center;
+    padding-bottom: 20px;
 }
 .Productive-user-report{
     display: flex;
@@ -117,7 +117,7 @@ img{
 }
 .users{
     text-align: center;
-        margin-top: -30px !important;
+    margin-top: -50px !important;
 }
 .review{
     display: flex;
@@ -158,7 +158,7 @@ img{
     font-size: 50px;
     font-weight: bold;
     font-family: "Raleway", sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
 }
 #ready-to-focus p{
     text-align: center;
@@ -175,7 +175,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 120px auto;
+    margin: 70px auto;
 }
 #get-in-touch h1{
     font-size: 97px;
@@ -214,7 +214,7 @@ img{
     text-align: center;
     margin: auto;
     background-color: #FFFFFF;
-    padding: 60px;
+    padding: 50px 0px;
 }
 
 #bottom h1{
@@ -224,9 +224,9 @@ img{
     letter-spacing: 3px;
     font-style: normal;
     color: #4E47FF;
-    margin-bottom: 20px; 
-    margin-top: 40px;
-    
+    margin-bottom: 20px;
+    margin-top: 30px;
+    cursor: default;
 }
 #bottom p{
     color: #8987A1;
